@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///D:/finaliitbbsr/app/api/auth/logout/route.ts"],"sourcesContent":["import { NextResponse } from 'next/server';\r\nimport { cookies } from 'next/headers';\r\n\r\nexport async function POST() {\r\n  try {\r\n    const cookieStore = await cookies();\r\n    \r\n    // Clear authentication cookies\r\n    cookieStore.delete('access_token');\r\n    cookieStore.delete('refresh_token');\r\n\r\n    return NextResponse.json({\r\n      success: true,\r\n      message: 'SESSION_TERMINATED'\r\n    });\r\n\r\n  } catch (error) {\r\n    console.error('Logout error:', error);\r\n    return NextResponse.json(\r\n      { error: 'LOGOUT_FAILED' },\r\n      { status: 500 }\r\n    );\r\n  }\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;AACA;;;AAEO,eAAe;IACpB,IAAI;QACF,MAAM,cAAc,MAAM,IAAA,2QAAO;QAEjC,+BAA+B;QAC/B,YAAY,MAAM,CAAC;QACnB,YAAY,MAAM,CAAC;QAEnB,OAAO,+QAAY,CAAC,IAAI,CAAC;YACvB,SAAS;YACT,SAAS;QACX;IAEF,EAAE,OAAO,OAAO;QACd,QAAQ,KAAK,CAAC,iBAAiB;QAC/B,OAAO,+QAAY,CAAC,IAAI,CACtB;YAAE,OAAO;QAAgB,GACzB;YAAE,QAAQ;QAAI;IAElB;AACF"}}]
+}

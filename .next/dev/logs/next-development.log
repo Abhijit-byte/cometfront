@@ -1,0 +1,27 @@
+[00:00:01.737] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:02.024] Server  LOG     ✓ Ready in 1480ms
+[00:00:02.026] Server  WARN    ⚠ Cross origin request detected from 127.0.0.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:03.724] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.741] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.746] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.040] Browser ERROR   Auth check failed: {}
+[00:00:11.438] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:11.781] Browser ERROR   Auth check failed: {}
+[00:00:31.360] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:07:16.446] Server  ERROR   [v0] Stats Error: TypeError: fetch failed
+[00:07:16.575] Server  ERROR   [v0] API Error: TypeError: fetch failed
+[00:07:20.047] Browser ERROR   Dashboard fetch error: {}
+[00:08:15.143] Server  ERROR   [v0] Stats Error: TypeError: fetch failed
+[00:08:15.250] Server  ERROR   [v0] API Error: TypeError: fetch failed
+[00:08:16.040] Browser ERROR   Dashboard fetch error: {}
+[00:09:15.163] Server  ERROR   [v0] Stats Error: TypeError: fetch failed
+[00:09:15.258] Server  ERROR   [v0] API Error: TypeError: fetch failed
+[00:09:16.041] Browser ERROR   Dashboard fetch error: {}
+[00:10:15.201] Server  ERROR   [v0] Stats Error: TypeError: fetch failed
+[00:10:15.304] Server  ERROR   [v0] API Error: TypeError: fetch failed
+[00:10:16.041] Browser ERROR   Dashboard fetch error: {}
+[00:11:15.142] Server  ERROR   [v0] Stats Error: TypeError: fetch failed
+[00:11:15.219] Server  ERROR   [v0] API Error: TypeError: fetch failed
+[00:11:16.041] Browser ERROR   Dashboard fetch error: {}
+[00:20:01.125] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
